@@ -1,12 +1,14 @@
-<header>
-  <title> SWRT OFFICIAL TIME</title>
-<header>
-<body>
-  <p id="timeP"></p>
-  <script>
-  var today = new Date();
-  var normalTime = (today.getHours() * 60 * 60) + (today.getMinutes() * 60) + today.getSeconds()
-  var swrtTime = normalTime / 2299;
-  document.getElementById("timeP").innerHTML = swrtTime;
-  <script>
-</body>
+<html>
+  <head>
+    <title> SWRT OFFICIAL TIME</title>
+  <head>
+  <body>
+    <p id="timeP"></p>
+    <script>
+    var today = new Date();
+    var normalTime = (today.getHours() * 60 * 60) + (today.getMinutes() * 60) + today.getSeconds()
+    var swrtTime = normalTime / 2299;
+    document.getElementById("timeP").innerHTML = swrtTime;
+    <script>
+  </body>
+</html>
